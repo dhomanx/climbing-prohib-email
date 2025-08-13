@@ -1,0 +1,17 @@
+{
+  "name": "climbing-prohib-email",
+  "version": "1.0.0",
+  "main": "node send-emails.js",
+  "scripts": {
+    "extract": "node extraction/extract-councillors.js",
+    "send": "node send-emails.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.1",
+    "nodemailer": "^7.0.5"
+  }
+}
