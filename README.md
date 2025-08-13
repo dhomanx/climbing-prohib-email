@@ -64,9 +64,9 @@ Before running the sender script, you need to:
 
 1.  **Prepare the recipient list:** The script is hardcoded to read from `tds.csv` in the project root. You will need to create this file. You can rename or copy one of the generated files (`local.csv` or `other.csv`) or create a custom one. The CSV file **must** have `Surname` and `Email` columns.
 
-2.  **Prepare the email template:** The script uses `tds.html` as the email body. You can modify this file to change the content of the email. The placeholder `[Surname]` will be replaced with the councillor's surname from the CSV.
+2.  **Prepare the email template:** The script uses `tds.html` as the email body. Modify this file to change the content of the email. The placeholder `[Surname]` will be replaced with the councillor's surname from the CSV.
 
-3.  **Update your personal details:** Open the `tds.html` file and replace the placeholder `NAME`, `ADDRESS`, `EMAIL`, and `PHONE` at the bottom with your own information.
+3.  **Update your personal details:** Open the `tds.html` file (or other template) and replace the placeholder `NAME`, `ADDRESS`, `EMAIL`, and `PHONE` at the bottom with your own information.
 
 4.  **(Optional) Update email subject:** The email subject is hardcoded in `send-emails.js`.
 
